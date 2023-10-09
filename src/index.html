@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveling</title>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <img src="<%=require('./images/logo.svg')%>" alt="logo" class="logo" />
+        <ul class="header__links">
+          <li>
+            <a href="#" class="header__registration-link">Sign up</a>
+          </li>
+          <li>
+            <a href="#" class="header__login-link">Log in</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="lead">
+        <h1 class="lead__title">Around the World</h1>
+        <p class="lead__subtitle">The real dream is not in the news, but here.</p>
+        <img
+          class="lead__image"
+          src="<%=require('./images/lead-image.png')%>"
+          alt="Photo of a girl sleeping in a reserved seat car on the side shelf."
+        />
+        <p class="lead__caption">your shelf &#8209; is top</p>
+      </div>
+      <article class="intro">
+        <h2 class="intro__title">What didn't we see there?</h2>
+        <p class="intro__text">
+          Our blog serves as a guide to the wondrous corners of nature, where grandeur and beauty merge into a unique
+          spectacle. Here, you will find stories about mysterious caves, captivating canyons, enchanting waterfalls, and
+          many other natural wonders that leave you speechless. We inspire the pressing need to reconnect with nature
+          and discover the incredible beauty of this world. In each article, you will find travel tips and the
+          inspiration to craft your own guide. Join us on this exhilarating journey to the most extraordinary and
+          beautiful corners of our planet's nature!
+        </p>
+        <ul class="intro__list">
+          <li><span class="intro__list-span">UNESCO natural heritage sites</span>252</li>
+          <li><span class="intro__list-span">UNESCO cultural heritage sites</span>1121</li>
+          <li><span class="intro__list-span">Nature reserves</span>thousands</li>
+        </ul>
+      </article>
+      <section class="gallery">
+        <img class="gallery__image" src="<%=require('./images/photo-grid-train.jpg')%>" alt="Photo of the view from the train window" />
+        <img class="gallery__image" src="<%=require('./images/photo-grid-atharva-tulsi.jpg')%>" alt="Mountain photography" />
+        <img class="gallery__image" src="<%=require('./images/photo-grid-tuman.jpg')%>" alt="Photo of a field with fog" />
+        <img class="gallery__image" src="<%=require('./images/photo-grid-sochi.jpg')%>" alt="Photo of a forest with fog" />
+        <img
+          class="gallery__image"
+          src="<%=require('./images/photo-grid-arisa.jpg')%>"
+          alt="Photo of the ice of Lake Baikal with a car wheel"
+        />
+        <img class="gallery__image" src="<%=require('./images/photo-grid-baikal.jpg')%>" alt="Photo of the beach of Lake Baikal" />
+        <img class="gallery__image" src="<%=require('./images/photo-grid-elbrus.jpg')%>" alt="Photo of Elbrus mountains" />
+        <img class="gallery__image" src="<%=require('./images/photo-grid-kondratiev.jpg')%>" alt="Photo of concrete pillars" />
+        <img class="gallery__image" src="<%=require('./images/photo-grid-kamchatka-1.jpg')%>" alt="Photo of rocks in Kamchatka" />
+        <img class="gallery__image" src="<%=require('./images/photo-grid-kamchatka-2.jpg')%>" alt="Photo of a mountain in Kamchatka" />
+        <img class="gallery__image" src="<%=require('./images/photo-grid-baikal-2.jpg')%>" alt="Photo of rocks along Lake Baikal" />
+        <img class="gallery__image" src="<%=require('./images/photo-grid-ergaki.jpg')%>" alt="Photo of mountain peaks with fog" />
+      </section>
+      <section class="places">
+        <div class="places__add-button">
+          <span class="places__add-title">Add new place</span>
+          <span class="places__add-icon"></span>
+        </div>
+        <article class="place">
+          <h2 class="place__title">The Li River</h2>
+          <div class="place__website">
+            <h3 class="place__url">URL</h3>
+            <a target="_blank" href="https://national-parks.org/china/guilin-lijiang" class="place__link"
+              >national-parks.org</a
+            >
+          </div>
+          <img class="place__image" src="<%=require('./images/place-li-river.png')%>" alt="Image of the Li Rivert" />
+          <div class="place__paragraphs">
+            <p class="place__paragraph">
+              Guilin and Lijiang River National Park is located in the northeastern region of Guangxi Zhuang, China, and
+              features the Li River, also known as Li Jiang, of the Pearl River Basin. The river flows a total of 102
+              miles (164 km).
+            </p>
+            <p class="place__paragraph">
+              The national park represents the outstanding scenery along the Li River between the cities of Yangshuo and
+              Guilin City. The scenery found between these two cities even serves as the artwork on the Chinese 20 yuan
+              note. The mountains decorate the shoreline as they individually pierce toward the sky.
+            </p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Winter Perm Krai</h2>
+          <div class="place__website">
+            <h3 class="place__url">URL</h3>
+            <a target="_blank" href="https://go.mishka.travel/winterperm" class="place__link"
+              >go.mishka.travel/winterperm</a
+            >
+          </div>
+          <img class="place__image" src="<%=require('./images/place-perm-krai.png')%>" alt="Image of Perm Krai" />
+          <div class="place__paragraphs">
+            <p class="place__paragraph">
+              An unusual region for the average tourist that is gaining popularity, all while being just a 2-hour flight
+              from Moscow!
+            </p>
+            <p class="place__paragraph">
+              Dangle your legs from the rugged cliffs, gazing at the vast and mighty Ural landscapes. Embark on
+              snowmobiles through the enchanting winter forest to the summit of Mount Polyud. To ascend to the
+              Commemorative Stone, a place rarely reached even by seasoned travelers during winter.
+            </p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Kamchatka</h2>
+          <div class="place__website">
+            <h3 class="place__url">URL</h3>
+            <a target="_blank" href="https://go.mishka.travel/kamchatka" class="place__link">go.mishka.travel</a>
+          </div>
+          <img class="place__image" src="<%=require('./images/place-kamchatka.png')%>" alt="Kamchatka image" />
+          <div class="place__paragraphs">
+            <p class="place__paragraph">
+              Kamchatka. Kamchatka crabs, caviar, scallops, sockeye salmon, and other seafood... And what about roasting
+              bananas on lava?
+            </p>
+            <p class="place__paragraph">
+              Volcanoes, volcanoes, lava fields, all mixed with black beaches. Mars, the Moon, and other
+              extraterrestrial landscapes. Kamchatka is both a wild Iceland and a remote Alaska. There is no other place
+              like it on the planet. It is unique.
+            </p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Unique Nepal</h2>
+          <div class="place__website">
+            <h3 class="place__url">URL</h3>
+            <a target="_blank" href="https://ntb.gov.np/" class="place__link">ntb.gov.np</a>
+          </div>
+          <img class="place__image" src="<%=require('./images/place-nepal.png')%>" alt="Image of Nepal" />
+          <div class="place__paragraphs">
+            <p class="place__paragraph">
+              National color, a culture that spans several centuries, the absence of megacities, people still living in
+              harmony with nature, and, of course, the Himalayan mountains!
+            </p>
+            <p class="place__paragraph">
+              Nepal rightfully holds the title of the "roof of the world": in this small mountainous country, there are
+              8 out of the 14 eight-thousanders on the planet! Nepal is the "home" of the world's highest peak - Mount
+              Everest - and the birthplace of Gautama Buddha.
+            </p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Winter Baikal</h2>
+          <div class="place__website">
+            <h3 class="place__url">URL</h3>
+            <a
+              target="_blank"
+              href="https://www.nationalgeographic.com/photo-of-the-day/photo/lake-baikal-cave"
+              class="place__link"
+              >www.nationalgeographic.com</a
+            >
+          </div>
+          <img class="place__image" src="<%=require('./images/place-winter-baikal.png')%>" alt="Image of the Winter Baikal lake" />
+          <div class="place__paragraphs">
+            <p class="place__paragraph">
+              Baikal is the deepest freshwater lake with the purest water in the world. It is an incredibly unique place
+              on the planet. A magical ice and a place of incredible energy and power, a place surrounded by legends,
+              myths, and sacred stories.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="cover">
+        <!-- <a target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link"> -->
+        <div class="cover__background">
+          <div class="cover__text-container">
+            <h2 class="cover__title">To Baikal "on dogs"</h2>
+            <p class="cover__subtitle">
+              Based on the educational topic about the Trans-Siberian Railway - a journey from the capital to Baikal by
+              electric trains.
+            </p>
+          </div>
+        </div>
+        <!-- </a> -->
+      </section>
+    </main>
+
+    <footer class="footer">
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__list-link">
+            <a target="_blank" href="https://www.google.com/maps" class="footer__link">Map</a>
+          </li>
+          <li class="footer__list-link">
+            <a target="_blank" href="https://weather.com/?Goto=Redirected" class="footer__link">Weather</a>
+          </li>
+          <li class="footer__list-link">
+            <a target="_blank" href="https://www.google.com/travel/" class="footer__link">Travel</a>
+          </li>
+          <li class="footer__list-link">
+            <a target="_blank" href="https://www.airbnb.se/" class="footer__link">Airbnb</a>
+          </li>
+          <li class="footer__list-link">
+            <a target="_blank" href="https://www.booking.com/" class="footer__link">Booking</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&copy; 2024 Tikhonova Kseniia</p>
+    </footer>
+
+    <div class="popup popup_type_place">
+      <div class="popup__container">
+        <button class="popup__button-close" aria-label="Close window button" type="button"></button>
+        <h2 class="popup__title">New place</h2>
+        <form class="popup__form" name="profile" novalidate>
+          <input
+            id="input-place"
+            minlength="2"
+            maxlength="30"
+            type="text"
+            name="place"
+            placeholder="name"
+            class="popup__input popup__input_data_place"
+            required
+          />
+          <span id="input-place-error" class="error"></span>
+          <input
+            id="input-link-card"
+            type="url"
+            name="link"
+            placeholder="image link"
+            class="popup__input popup__input_data_link"
+            required
+          />
+          <span id="input-link-card-error" class="error"></span>
+          <textarea
+            id="textarea-description"
+            rows="8"
+            cols="60"        
+            name="description"
+            placeholder="description"
+            class="popup__textarea popup__textarea_data_description"
+            required
+          ></textarea>
+          <span id="input-description-error" class="error"></span>
+          <button type="submit" class="popup__button-save" aria-label="Create">
+            <p class="popup__button-title popup__button-visible">Create</p>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="popup popup_type_image popup_overley_dark">
+      <div class="popup__container popup__container_type_image">
+        <button class="popup__button-close" aria-label="Close image button" type="button"></button>
+        <img src="#" alt="#" class="popup__picture" />
+      </div>
+    </div>
+
+    <!-- <div class="authentication">
+      <h2 class="authentication__title">Nice to see you!</h2>
+      <form class="authentication__form" name="register" novalidate>
+        <label class="authentication__label" for="input-email">email</label>
+        <input
+          id="input-email"
+          type="text"
+          name="email"
+          class="authentication__input authentication__input_data_email"
+          required
+          minlength="2"
+          maxlength="200"
+        />
+        <span id="input-email-error" class="error"></span>
+        <label class="authentication__label" for="input-password">password</label>
+        <input
+          id="input-password"
+          type="password"
+          name="password"
+          class="authentication__input authentication__input_data_password"
+          required
+          minlength="2"
+          maxlength="200"
+        />
+        <span id="input-password-error" className="error"></span>
+        <h3 class="authentication__warning-text">Something went wrong...</h3>
+        <button type="submit" class="authentication__button-save" aria-label="Sent result">
+          <h3 class="authentication__button-title">Sign in</h3>
+        </button>
+        <div class="authentication__links">
+          <a href="#" class="authentication__question">Not registered yet?</a>
+          <a href="#" class="authentication__link">Sign up</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="authentication">
+      <h2 class="authentication__title">Welcome!</h2>
+      <form class="authentication__form" name="register" novalidate>
+        <label class="authentication__label" for="input-name">name</label>
+        <input
+          id="input-name"
+          type="text"
+          name="name"
+          class="authentication__input authentication__input_data_name"
+          required
+          minlength="2"
+          maxlength="40"
+        />
+        <span id="input-name-error" class="error"></span>
+        <label class="authentication__label" for="input-email">email</label>
+        <input
+          id="input-email"
+          type="text"
+          name="email"
+          class="authentication__input authentication__input_data_email"
+          required
+          minlength="2"
+          maxlength="200"
+        />
+        <span id="input-email-error" class="error"></span>
+        <label class="authentication__label" for="input-password">password</label>
+        <input
+          id="input-password"
+          type="password"
+          name="password"
+          class="authentication__input authentication__input_data_password"
+          required
+          minlength="2"
+          maxlength="200"
+        />
+        <span id="input-password-error" className="error"></span>
+        <h3 class="authentication__warning-text">Something went wrong...</h3>
+        <button type="submit" class="authentication__button-save" aria-label="Sent result">
+          <h3 class="authentication__button-title">Sign up</h3>
+        </button>
+        <div class="authentication__links">
+          <a href="#" class="authentication__question">Already registered?</a>
+          <a href="#" class="authentication__link">Sign in</a>
+        </div>
+      </form>
+    </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 66px;
+}
+
+@media (min-width: 768px) {
+  .places {
+    padding: 0 24px 90px 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+    padding: 0 48px 90px 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    padding: 0 100px 90px 100px;
+  }
+}
+
+.places__add-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 16px 40px 16px;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .places__add-button {
+    padding: 0 0 40px 0;
+  }
+}
+
+.places__add-title {
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: white;
+  transition: color 0.5s;
+  margin-right: 25px;
+}
+
+.places__add-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background-image: url(../images/icon-plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0;
+  border: none;
+  transition: transform 0.4s;
+}
+
+.places__add-button:hover .places__add-icon {
+  transform: translateX(30px);
+}
+
+.places__add-button:hover .places__add-title {
+  color: gray;
+}

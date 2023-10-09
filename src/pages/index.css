@@ -1,0 +1,15 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/Inter-3.19/fonts.css);
+@import url(../blocks/Page.css);
+@import url(../blocks/Main.css);
+@import url(../blocks/Logo.css);
+@import url(../blocks/Header.css);
+@import url(../blocks/Intro.css);
+@import url(../blocks/Lead.css);
+@import url(../blocks/Gallery.css);
+@import url(../blocks/Places.css);
+@import url(../blocks/Place.css);
+@import url(../blocks/Cover.css);
+@import url(../blocks/Footer.css);
+@import url(../blocks/Popup.css);
+@import url(../blocks/Authentication.css);
