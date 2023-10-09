@@ -22,12 +22,12 @@
 * Guest Mode:
 In guest mode, you have access to the entire page content. You can browse various places and also enlarge images in the gallery by clicking on them. However, the "Add New Place" button will not be visible to you.
 
-![open image popup](./images/photo-readme-1.png)
+![open popup to add a new place](./src/images/photo-readme-1.png)
 
 * Profile Owner Mode:
 If you are the owner of a profile, you need to log in to your account using your email address and password. In this mode, you can add new places by clicking on the "Add New Place" button and filling out the corresponding form.
 
-![open popup to add a new place](./images/photo-readme-2.png)
+![open popup to add a new place](./src/images/photo-readme-2.png)
 
 ---
 
