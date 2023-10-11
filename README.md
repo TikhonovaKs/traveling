@@ -12,7 +12,7 @@
 * https://github.com/TikhonovaKs/traveling.git
 
 ### Link to published website:
-* 
+* https://frabjous-babka-5efbae.netlify.app/
 
 ---
 
