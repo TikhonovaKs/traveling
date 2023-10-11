@@ -9,7 +9,7 @@
 ---
 
 ### Link GitHub Pages:
-* 
+* https://github.com/TikhonovaKs/traveling.git
 
 ### Link to published website:
 * 
@@ -37,5 +37,4 @@ If you are the owner of a profile, you need to log in to your account using your
 * Responsive layout that displays correctly on all intermediate resolutions.
 * Semantic markup is used to improve accessibility.
 * Layout framework is implemented using Flex layout or Grid layout.
-* Fonts are included via @font-face for improved page loading.
 * Images have the 'alt' attribute set with a suitable value to enhance accessibility.
