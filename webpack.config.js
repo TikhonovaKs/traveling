@@ -8,15 +8,21 @@ const isProduction = process.env.NODE_ENV == 'production';
 const stylesHandler = MiniCssExtractPlugin.loader;
 
 const config = {
-  entry: './src/pages/index.js',
+  entry: {
+    entry: '/src/pages/index.js',
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js',
   },
+  mode: 'development',
   devServer: {
+    static: {
+      directory: path.resolve(__dirname, 'dist'),
+    },
     open: true,
-    host: 'localhost',
   },
+
   plugins: [
     // new HtmlWebpackPlugin({
     //     template: './src/index.html'
@@ -34,8 +40,9 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.js$/i,
-        loader: 'babel-loader',
+        test: /\.js$/,
+        use: 'babel-loader',
+        exclude: '/node_modules/',
       },
       {
         test: /\.css$/i,
