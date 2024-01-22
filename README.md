@@ -1,4 +1,4 @@
-# Project "Traveling"
+# Study project "Traveling"
 
 ## Review
 * Link to GitHub repository
