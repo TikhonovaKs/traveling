@@ -51,7 +51,7 @@ To run the project, follow these simple steps:
 2. Clone this repository:
 
     ```bash
-    git clone https://github.com/endjoyer/movies-explorer-frontend
+    git clone https://github.com/TikhonovaKs/traveling.git
     ```
 
 3. Install all dependencies:
