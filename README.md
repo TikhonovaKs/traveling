@@ -38,3 +38,37 @@ If you are the owner of a profile, you need to log in to your account using your
 * Semantic markup is used to improve accessibility.
 * Layout framework is implemented using Flex layout or Grid layout.
 * Images have the 'alt' attribute set with a suitable value to enhance accessibility.
+
+### Instructions
+To run the project, follow these simple steps:
+
+1. Create a new folder and navigate to it:
+
+    ```bash
+    cd <Folder-Name>
+    ```
+
+2. Clone this repository:
+
+    ```bash
+    git clone https://github.com/endjoyer/movies-explorer-frontend
+    ```
+
+3. Install all dependencies:
+
+    ```bash
+    npm install
+    # or
+    yarn
+    ```
+
+4. Now you can start the project:
+
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+    
+### System Requirements
+To successfully run the project, you will need Node.js version 16.13.2 or newer.
